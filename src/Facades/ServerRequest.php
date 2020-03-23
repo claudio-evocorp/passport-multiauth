@@ -2,6 +2,7 @@
 
 namespace CRodrigo\PassportMultiauth\Facades;
 
+use Nyholm\Psr7\Factory\Psr17Factory;
 use Symfony\Bridge\PsrHttpMessage\Factory\PsrHttpFactory;
 use Symfony\Component\HttpFoundation\Request;
 
@@ -14,6 +15,10 @@ class ServerRequest
      */
     public static function createRequest(Request $symfonyRequest)
     {
-        return (new PsrHttpFactory())->createRequest($symfonyRequest);
+        $psr17Factory = new Psr17Factory();
+        $psrHttpFactory = new PsrHttpFactory($psr17Factory, $psr17Factory, $psr17Factory, $psr17Factory);
+        $psrRequest = $psrHttpFactory->createRequest($symfonyRequest);
+
+        return $psrRequest;
     }
 }
