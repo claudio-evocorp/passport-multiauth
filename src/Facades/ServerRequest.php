@@ -1,6 +1,6 @@
 <?php
 
-namespace SMartins\PassportMultiauth\Facades;
+namespace CRodrigo\PassportMultiauth\Facades;
 
 use Symfony\Bridge\PsrHttpMessage\Factory\PsrHttpFactory;
 use Symfony\Component\HttpFoundation\Request;

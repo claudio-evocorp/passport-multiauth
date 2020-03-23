@@ -1,9 +1,9 @@
 <?php
 
-namespace SMartins\PassportMultiauth\Config;
+namespace CRodrigo\PassportMultiauth\Config;
 
 use Illuminate\Contracts\Auth\Authenticatable;
-use SMartins\PassportMultiauth\Exceptions\MissingConfigException;
+use CRodrigo\PassportMultiauth\Exceptions\MissingConfigException;
 
 class AuthConfigHelper
 {

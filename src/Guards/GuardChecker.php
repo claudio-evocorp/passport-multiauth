@@ -1,6 +1,6 @@
 <?php
 
-namespace SMartins\PassportMultiauth\Guards;
+namespace CRodrigo\PassportMultiauth\Guards;
 
 use Illuminate\Http\Request;
 use Illuminate\Support\Collection;

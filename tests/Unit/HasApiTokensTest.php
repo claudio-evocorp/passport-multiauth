@@ -1,12 +1,12 @@
 <?php
 
-namespace SMartins\PassportMultiauth\Tests\Unit;
+namespace CRodrigo\PassportMultiauth\Tests\Unit;
 
-use SMartins\PassportMultiauth\Exceptions\MissingConfigException;
-use SMartins\PassportMultiauth\Tests\Fixtures\Models\Admin;
-use SMartins\PassportMultiauth\Tests\Fixtures\Models\Company;
-use SMartins\PassportMultiauth\Tests\Fixtures\Models\User;
-use SMartins\PassportMultiauth\Tests\TestCase;
+use CRodrigo\PassportMultiauth\Exceptions\MissingConfigException;
+use CRodrigo\PassportMultiauth\Tests\Fixtures\Models\Admin;
+use CRodrigo\PassportMultiauth\Tests\Fixtures\Models\Company;
+use CRodrigo\PassportMultiauth\Tests\Fixtures\Models\User;
+use CRodrigo\PassportMultiauth\Tests\TestCase;
 
 class HasApiTokensTest extends TestCase
 {

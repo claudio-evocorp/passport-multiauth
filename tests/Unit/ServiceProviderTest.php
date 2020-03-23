@@ -1,13 +1,13 @@
 <?php
 
-namespace SMartins\PassportMultiauth\Tests\Unit;
+namespace CRodrigo\PassportMultiauth\Tests\Unit;
 
 use Illuminate\Database\Capsule\Manager as DB;
 use Illuminate\Database\Eloquent\Model as Eloquent;
 use Laravel\Passport\Events\AccessTokenCreated;
-use SMartins\PassportMultiauth\Provider;
-use SMartins\PassportMultiauth\Providers\MultiauthServiceProvider;
-use SMartins\PassportMultiauth\Tests\TestCase;
+use CRodrigo\PassportMultiauth\Provider;
+use CRodrigo\PassportMultiauth\Providers\MultiauthServiceProvider;
+use CRodrigo\PassportMultiauth\Tests\TestCase;
 
 class ServiceProviderTest extends TestCase
 {

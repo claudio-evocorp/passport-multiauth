@@ -1,5 +1,5 @@
 {
-    "name": "smartins/passport-multiauth",
+    "name": "claudiorodrigo/passport-multiauth",
     "description": "Add support to multi-auth on Laravel Passport",
     "type": "library",
     "license": "MIT",
@@ -23,7 +23,7 @@
     },
     "autoload": {
         "psr-4": {
-            "SMartins\\PassportMultiauth\\": "src/"
+            "CRodrigo\\PassportMultiauth\\": "src/"
         }
     },
     "autoload-dev": {
@@ -31,7 +31,7 @@
             "tests/TestCase.php"
         ],
         "psr-4": {
-            "SMartins\\PassportMultiauth\\Tests\\": "tests"
+            "CRodrigo\\PassportMultiauth\\Tests\\": "tests"
         }
     },
     "extra": {

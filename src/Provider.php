@@ -1,6 +1,6 @@
 <?php
 
-namespace SMartins\PassportMultiauth;
+namespace CRodrigo\PassportMultiauth;
 
 use Illuminate\Database\Eloquent\Model;
 

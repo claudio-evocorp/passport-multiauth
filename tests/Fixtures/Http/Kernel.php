@@ -1,6 +1,6 @@
 <?php
 
-namespace SMartins\PassportMultiauth\Tests\Fixtures\Http;
+namespace CRodrigo\PassportMultiauth\Tests\Fixtures\Http;
 
 use Orchestra\Testbench\Http\Kernel as HttpKernel;
 use Orchestra\Testbench\Http\Middleware\RedirectIfAuthenticated;
@@ -15,8 +15,8 @@ class Kernel extends HttpKernel
      * @var array
      */
     protected $routeMiddleware = [
-        'auth' => \SMartins\PassportMultiauth\Http\Middleware\MultiAuthenticate::class,
-        'oauth.providers' => \SMartins\PassportMultiauth\Http\Middleware\AddCustomProvider::class,
+        'auth' => \CRodrigo\PassportMultiauth\Http\Middleware\MultiAuthenticate::class,
+        'oauth.providers' => \CRodrigo\PassportMultiauth\Http\Middleware\AddCustomProvider::class,
         'auth.basic' => \Illuminate\Auth\Middleware\AuthenticateWithBasicAuth::class,
         'bindings' => \Illuminate\Routing\Middleware\SubstituteBindings::class,
         'can' => \Illuminate\Auth\Middleware\Authorize::class,

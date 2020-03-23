@@ -1,6 +1,6 @@
 <?php
 
-namespace SMartins\PassportMultiauth\Tests\Feature;
+namespace CRodrigo\PassportMultiauth\Tests\Feature;
 
 use Illuminate\Auth\AuthenticationException;
 use Illuminate\Http\Request;
@@ -8,11 +8,11 @@ use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Route;
 use Laravel\Passport\Client;
 use Laravel\Passport\Passport;
-use SMartins\PassportMultiauth\Http\Middleware\AddCustomProvider;
-use SMartins\PassportMultiauth\PassportMultiauth;
-use SMartins\PassportMultiauth\Tests\Fixtures\Models\Company;
-use SMartins\PassportMultiauth\Tests\Fixtures\Models\User;
-use SMartins\PassportMultiauth\Tests\TestCase;
+use CRodrigo\PassportMultiauth\Http\Middleware\AddCustomProvider;
+use CRodrigo\PassportMultiauth\PassportMultiauth;
+use CRodrigo\PassportMultiauth\Tests\Fixtures\Models\Company;
+use CRodrigo\PassportMultiauth\Tests\Fixtures\Models\User;
+use CRodrigo\PassportMultiauth\Tests\TestCase;
 
 class MultiauthTest extends TestCase
 {

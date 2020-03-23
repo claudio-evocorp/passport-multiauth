@@ -1,12 +1,12 @@
 <?php
 
-namespace SMartins\PassportMultiauth\Tests\Unit;
+namespace CRodrigo\PassportMultiauth\Tests\Unit;
 
 use Illuminate\Http\Request;
 use League\OAuth2\Server\Exception\OAuthServerException;
 use Mockery;
-use SMartins\PassportMultiauth\Http\Middleware\AddCustomProvider;
-use SMartins\PassportMultiauth\Tests\TestCase;
+use CRodrigo\PassportMultiauth\Http\Middleware\AddCustomProvider;
+use CRodrigo\PassportMultiauth\Tests\TestCase;
 
 class AddCustomProviderTest extends TestCase
 {

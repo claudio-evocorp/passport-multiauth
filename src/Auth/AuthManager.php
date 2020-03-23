@@ -1,6 +1,6 @@
 <?php
 
-namespace SMartins\PassportMultiauth\Auth;
+namespace CRodrigo\PassportMultiauth\Auth;
 
 use Illuminate\Auth\AuthManager as BaseAuthManager;
 

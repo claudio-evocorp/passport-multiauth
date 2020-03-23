@@ -1,9 +1,9 @@
 <?php
 
-namespace SMartins\PassportMultiauth\Tests\Fixtures\Models;
+namespace CRodrigo\PassportMultiauth\Tests\Fixtures\Models;
 
 use Illuminate\Foundation\Auth\User as Authenticatable;
-use SMartins\PassportMultiauth\HasMultiAuthApiTokens;
+use CRodrigo\PassportMultiauth\HasMultiAuthApiTokens;
 
 class Company extends Authenticatable
 {

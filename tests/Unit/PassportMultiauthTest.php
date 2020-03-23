@@ -1,12 +1,12 @@
 <?php
 
-namespace SMartins\PassportMultiauth\Tests\Unit;
+namespace CRodrigo\PassportMultiauth\Tests\Unit;
 
 use Exception;
-use SMartins\PassportMultiauth\PassportMultiauth;
-use SMartins\PassportMultiauth\Tests\Fixtures\Models\Customer;
-use SMartins\PassportMultiauth\Tests\Fixtures\Models\User;
-use SMartins\PassportMultiauth\Tests\TestCase;
+use CRodrigo\PassportMultiauth\PassportMultiauth;
+use CRodrigo\PassportMultiauth\Tests\Fixtures\Models\Customer;
+use CRodrigo\PassportMultiauth\Tests\Fixtures\Models\User;
+use CRodrigo\PassportMultiauth\Tests\TestCase;
 
 class PassportMultiauthTest extends TestCase
 {

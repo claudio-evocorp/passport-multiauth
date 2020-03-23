@@ -1,10 +1,10 @@
 <?php
 
-namespace SMartins\PassportMultiauth\Tests\Unit;
+namespace CRodrigo\PassportMultiauth\Tests\Unit;
 
-use SMartins\PassportMultiauth\Provider;
-use SMartins\PassportMultiauth\ProviderRepository;
-use SMartins\PassportMultiauth\Tests\TestCase;
+use CRodrigo\PassportMultiauth\Provider;
+use CRodrigo\PassportMultiauth\ProviderRepository;
+use CRodrigo\PassportMultiauth\Tests\TestCase;
 
 class ProviderRepositoryTest extends TestCase
 {

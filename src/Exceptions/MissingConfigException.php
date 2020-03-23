@@ -1,6 +1,6 @@
 <?php
 
-namespace SMartins\PassportMultiauth\Exceptions;
+namespace CRodrigo\PassportMultiauth\Exceptions;
 
 use Exception;
 use Illuminate\Contracts\Auth\Authenticatable;

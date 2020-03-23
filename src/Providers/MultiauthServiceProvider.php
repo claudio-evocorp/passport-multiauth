@@ -1,14 +1,14 @@
 <?php
 
-namespace SMartins\PassportMultiauth\Providers;
+namespace CRodrigo\PassportMultiauth\Providers;
 
 use Illuminate\Auth\AuthServiceProvider;
 use Illuminate\Support\Facades\Event;
 use Laravel\Passport\Events\AccessTokenCreated;
-use SMartins\PassportMultiauth\Auth\AuthManager;
-use SMartins\PassportMultiauth\Http\Middleware\AddCustomProvider;
-use SMartins\PassportMultiauth\PassportMultiauth;
-use SMartins\PassportMultiauth\ProviderRepository;
+use CRodrigo\PassportMultiauth\Auth\AuthManager;
+use CRodrigo\PassportMultiauth\Http\Middleware\AddCustomProvider;
+use CRodrigo\PassportMultiauth\PassportMultiauth;
+use CRodrigo\PassportMultiauth\ProviderRepository;
 
 class MultiauthServiceProvider extends AuthServiceProvider
 {

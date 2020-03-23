@@ -1,10 +1,10 @@
 <?php
 
-namespace SMartins\PassportMultiauth\Tests\Unit;
+namespace CRodrigo\PassportMultiauth\Tests\Unit;
 
 use Mockery;
-use SMartins\PassportMultiauth\Guards\GuardChecker;
-use SMartins\PassportMultiauth\Tests\TestCase;
+use CRodrigo\PassportMultiauth\Guards\GuardChecker;
+use CRodrigo\PassportMultiauth\Tests\TestCase;
 
 class GuardCheckerTest extends TestCase
 {

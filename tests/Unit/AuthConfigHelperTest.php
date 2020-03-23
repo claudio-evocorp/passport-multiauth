@@ -1,13 +1,13 @@
 <?php
 
-namespace SMartins\PassportMultiauth\Tests\Unit;
+namespace CRodrigo\PassportMultiauth\Tests\Unit;
 
-use SMartins\PassportMultiauth\Config\AuthConfigHelper;
-use SMartins\PassportMultiauth\Exceptions\MissingConfigException;
-use SMartins\PassportMultiauth\Tests\Fixtures\Models\Company;
-use SMartins\PassportMultiauth\Tests\Fixtures\Models\Customer;
-use SMartins\PassportMultiauth\Tests\Fixtures\Models\User;
-use SMartins\PassportMultiauth\Tests\TestCase;
+use CRodrigo\PassportMultiauth\Config\AuthConfigHelper;
+use CRodrigo\PassportMultiauth\Exceptions\MissingConfigException;
+use CRodrigo\PassportMultiauth\Tests\Fixtures\Models\Company;
+use CRodrigo\PassportMultiauth\Tests\Fixtures\Models\Customer;
+use CRodrigo\PassportMultiauth\Tests\Fixtures\Models\User;
+use CRodrigo\PassportMultiauth\Tests\TestCase;
 
 class AuthConfigHelperTest extends TestCase
 {

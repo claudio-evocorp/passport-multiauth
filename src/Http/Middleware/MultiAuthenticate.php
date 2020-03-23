@@ -1,6 +1,6 @@
 <?php
 
-namespace SMartins\PassportMultiauth\Http\Middleware;
+namespace CRodrigo\PassportMultiauth\Http\Middleware;
 
 use Closure;
 use Illuminate\Auth\AuthenticationException;
@@ -13,12 +13,12 @@ use Illuminate\Support\Facades\Auth as AuthFacade;
 use League\OAuth2\Server\Exception\OAuthServerException;
 use League\OAuth2\Server\ResourceServer;
 use Psr\Http\Message\ServerRequestInterface;
-use SMartins\PassportMultiauth\Config\AuthConfigHelper;
-use SMartins\PassportMultiauth\Facades\ServerRequest;
-use SMartins\PassportMultiauth\Guards\GuardChecker;
-use SMartins\PassportMultiauth\PassportMultiauth;
-use SMartins\PassportMultiauth\Provider as Token;
-use SMartins\PassportMultiauth\ProviderRepository;
+use CRodrigo\PassportMultiauth\Config\AuthConfigHelper;
+use CRodrigo\PassportMultiauth\Facades\ServerRequest;
+use CRodrigo\PassportMultiauth\Guards\GuardChecker;
+use CRodrigo\PassportMultiauth\PassportMultiauth;
+use CRodrigo\PassportMultiauth\Provider as Token;
+use CRodrigo\PassportMultiauth\ProviderRepository;
 
 class MultiAuthenticate extends Authenticate
 {
@@ -60,7 +60,7 @@ class MultiAuthenticate extends Authenticate
      * @return mixed
      *
      * @throws \Illuminate\Auth\AuthenticationException
-     * @throws \SMartins\PassportMultiauth\Exceptions\MissingConfigException
+     * @throws \CRodrigo\PassportMultiauth\Exceptions\MissingConfigException
      */
     public function handle($request, Closure $next, ...$guards)
     {
@@ -156,7 +156,7 @@ class MultiAuthenticate extends Authenticate
      * @param Authenticatable $user
      * @param  array $guards
      * @return bool
-     * @throws \SMartins\PassportMultiauth\Exceptions\MissingConfigException
+     * @throws \CRodrigo\PassportMultiauth\Exceptions\MissingConfigException
      */
     public function canBeAuthenticated(Authenticatable $user, $guards)
     {
