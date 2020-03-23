@@ -1,13 +1,13 @@
 {
-    "name": "smartins/passport-multiauth",
+    "name": "claudiorodrigo/passport-multiauth",
     "description": "Add support to multi-auth on Laravel Passport",
     "type": "library",
     "license": "MIT",
     "keywords": ["laravel", "passport", "multi-auth"],
     "authors": [
         {
-            "name": "Samuel Martins",
-            "email": "sfelix_martins@hotmail.com"
+            "name": "Claudio Rodrigo",
+            "email": "claudio@evocorp.com.br"
         }
     ],
     "minimum-stability": "dev",
